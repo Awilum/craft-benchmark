@@ -18,8 +18,7 @@
       "docs": "https://github.com/craft-plugins/benchmark/master/README.md"
     },
     "require": {
-      "craftcms/cms": "^4.3.3",
-      "glowy/benchmark": "^1.0.0"
+      "craftcms/cms": "^4.3.3"
     },
     "autoload": {
       "psr-4": {
@@ -30,8 +29,8 @@
     "prefer-stable": true,
     "extra": {
       "name": "Benchmark",
-      "handle": "Benchmark",
-      "class": "CraftPlugins\\Benchmark\\Benchmark"
+      "handle": "benchmark",
+      "class": "CraftPlugins\\Benchmark\\BenchmarkPLugin"
     },
     "require-dev": {
       "ext-iconv": "*",

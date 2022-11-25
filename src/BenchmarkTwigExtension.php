@@ -18,11 +18,7 @@ use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 use Twig\TwigFilter;
 use Twig_Extension;
-use function Glowy\Benchmark\benchmarkStart;
-use function Glowy\Benchmark\benchmarkEnd;
-use function Glowy\Benchmark\benchmarkSummary;
-use function Glowy\Benchmark\benchmarkFlush;
-use function Glowy\Benchmark\benchmarkDelete;
+use CraftPlugins\Benchmark\Benchmark;
 
 class BenchmarkTwigExtension extends AbstractExtension
 {
