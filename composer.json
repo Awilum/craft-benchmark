@@ -24,8 +24,7 @@
     "autoload": {
       "psr-4": {
         "CraftPlugins\\Benchmark\\": "src/"
-      },
-      "files": ["src/functions.php"]
+      }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
