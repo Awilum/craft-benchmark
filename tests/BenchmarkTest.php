@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-use function CraftPlugins\Benchmark\Prob\benchmarkStart;
-use function CraftPlugins\Benchmark\Prob\benchmarkEnd;
-use function CraftPlugins\Benchmark\Prob\benchmarkSummary;
-use function CraftPlugins\Benchmark\Prob\benchmarkFlush;
-use function CraftPlugins\Benchmark\Prob\benchmarkDelete;
+use function CraftPlugins\Benchmark\benchmarkStart;
+use function CraftPlugins\Benchmark\benchmarkEnd;
+use function CraftPlugins\Benchmark\benchmarkSummary;
+use function CraftPlugins\Benchmark\benchmarkFlush;
+use function CraftPlugins\Benchmark\benchmarkDelete;
 
-test('test benchmark helpers', function (): void {
+test('benchmark functions', function (): void {
 
     // start, end, summary
     benchmarkStart('foo');
