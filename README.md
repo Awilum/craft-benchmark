@@ -26,6 +26,23 @@ To install the plugin, follow these instructions.
 
 ### Usage
 
+```
+{% do benchmarkStart('fetch_news') %}
+    {% set entryQuery = craft.entries()
+    .section('news')
+    .orderBy('postDate DESC')
+    .limit(10) %}
+{% do benchmarkEnd('fetch_news') %}
+
+
+Time elapsed: {{ benchmarkSummary()['default']['time']['elapsed_formated'] }}<br>
+Memory usage: {{ benchmarkSummary()['default']['memory']['usage_formated'] }}
+
+//=> Time elapsed: 1ms
+//=> Memory usage: 3.46KB
+```
+
+
 ## LICENSE
 [The MIT License (MIT)](https://github.com/craft-plugins/benchmark/blob/master/LICENSE.md)
 Copyright (c) [Sergey Romanenko](https://awilum.github.io/)
