@@ -33,3 +33,6 @@ jobs:
       
     - name: PHP Static Analysis
       run: ./vendor/bin/phpstan
+
+    - name: Run Tests
+      run: ./vendor/bin/pest --coverage
