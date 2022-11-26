@@ -35,13 +35,25 @@ To install the plugin, follow these instructions.
 {% do benchmarkEnd('fetch_news') %}
 
 
-Time elapsed: {{ benchmarkSummary()['default']['time']['elapsed_formated'] }}<br>
-Memory usage: {{ benchmarkSummary()['default']['memory']['usage_formated'] }}
+Time elapsed: {{ benchmarkSummary()['fetch_news']['time']['elapsed_formated'] }}
+Memory usage: {{ benchmarkSummary()['fetch_news']['memory']['usage_formated'] }}
 
 //=> Time elapsed: 1ms
 //=> Memory usage: 3.46KB
 ```
 
+<table>
+<tr>
+<td>PHP function</td>
+<td>Twig function</td>
+<td>Description</td>
+</tr>
+<tr>
+<td><code>CraftPlugins\Benchmark\benchmarkStart</code></td>
+<td>benchmarkStart</td>
+<td>Start benchmark prob.</td>
+</tr>
+<table>
 
 ## LICENSE
 [The MIT License (MIT)](https://github.com/craft-plugins/benchmark/blob/master/LICENSE.md)
