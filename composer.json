@@ -23,7 +23,10 @@
     "autoload": {
       "psr-4": {
         "CraftPlugins\\Benchmark\\": "src/"
-      }
+      },
+      "files": [
+        "src/functions.php"
+      ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -34,12 +37,14 @@
     },
     "require-dev": {
       "ext-iconv": "*",
-      "phpstan/phpstan": "^1.8.0"
+      "phpstan/phpstan": "^1.8.0",
+      "pestphp/pest": "^1.21.1"
     },
     "config": {
         "allow-plugins": {
             "yiisoft/yii2-composer": true,
-            "craftcms/plugin-installer": true
+            "craftcms/plugin-installer": true,
+            "pestphp/pest-plugin": true
         }
     }
 }
