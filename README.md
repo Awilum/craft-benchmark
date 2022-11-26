@@ -42,6 +42,8 @@ Memory usage: {{ benchmarkSummary()['fetch_news']['memory']['usage_formated'] }}
 //=> Memory usage: 3.46KB
 ```
 
+#### Functions
+
 <table>
 <tr>
 <td>PHP function</td>
@@ -52,6 +54,26 @@ Memory usage: {{ benchmarkSummary()['fetch_news']['memory']['usage_formated'] }}
 <td><code>CraftPlugins\Benchmark\benchmarkStart</code></td>
 <td>benchmarkStart</td>
 <td>Start benchmark prob.</td>
+</tr>
+<tr>
+<td><code>CraftPlugins\Benchmark\benchmarkEnd</code></td>
+<td>benchmarkEnd</td>
+<td>End benchmark prob.</td>
+</tr>
+<tr>
+<td><code>CraftPlugins\Benchmark\benchmarkDelete</code></td>
+<td>benchmarkDelete</td>
+<td>Delete benchmark prob.</td>
+</tr>
+<tr>
+<td><code>CraftPlugins\Benchmark\benchmarkFlush</code></td>
+<td>benchmarkFlush</td>
+<td>Flush benchmark prob.</td>
+</tr>
+<tr>
+<td><code>CraftPlugins\Benchmark\benchmarkSummary</code></td>
+<td>benchmarkSummary</td>
+<td>Get benchmark summary.</td>
 </tr>
 <table>
 
