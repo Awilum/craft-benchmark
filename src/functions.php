@@ -22,7 +22,7 @@ use CraftPlugins\Benchmark\Probs;
  */
 function benchmarkStart(string $name = 'default'): void
 {
-    Prob::start($name);
+    Probs::start($name);
 }
 
 /**
@@ -32,7 +32,7 @@ function benchmarkStart(string $name = 'default'): void
  */
 function benchmarkEnd(string $name = 'default'): void
 {
-    Prob::end($name);
+    Probs::end($name);
 }
 
 /**
@@ -42,7 +42,7 @@ function benchmarkEnd(string $name = 'default'): void
  */
 function benchmarkDelete(string $name = 'default'): void
 {
-    Prob::delete($name);
+    Probs::delete($name);
 }
 
 /**
@@ -50,7 +50,7 @@ function benchmarkDelete(string $name = 'default'): void
  */
 function benchmarkFlush(): void
 {
-    Prob::flush();
+    Probs::flush();
 }
 
 
@@ -61,5 +61,5 @@ function benchmarkFlush(): void
  */
 function benchmarkSummary(): array
 {
-    return Prob::summary();
+    return Probs::summary();
 }
