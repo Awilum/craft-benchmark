@@ -40,11 +40,11 @@ class BenchmarkTwigExtension extends AbstractExtension
 	public function getFunctions()
 	{
 		return [
-			new TwigFunction('benchmarkStart', fn(string $name = 'default') => benchmarkStart($name)),
-			new TwigFunction('benchmarkEnd', fn(string $name = 'default') => benchmarkEnd($name)),
-			new TwigFunction('benchmarkDelete', fn(string $name = 'default') => benchmarkDelete($name)),
-			new TwigFunction('benchmarkFlush', fn() => benchmarkFlush()),
-			new TwigFunction('benchmarkSummary', fn() => benchmarkSummary())
+			new TwigFunction('benchmarkStart', fn(string $name = 'default') => Benchmark::start($name)),
+			new TwigFunction('benchmarkEnd', fn(string $name = 'default') => Benchmark::end($name)),
+			new TwigFunction('benchmarkDelete', fn(string $name = 'default') => Benchmark::delete($name)),
+			new TwigFunction('benchmarkFlush', fn() => Benchmark::flush()),
+			new TwigFunction('benchmarkSummary', fn() => Benchmark::summary())
 		];
 	}
 }
