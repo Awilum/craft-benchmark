@@ -46,9 +46,9 @@ Memory usage: {{ benchmarkSummary()['fetch_news']['memory']['usage_formated'] }}
 
 <table>
 <tr>
-<td>PHP function</td>
-<td>Twig function</td>
-<td>Description</td>
+<td><b>PHP function</b></td>
+<td><b>Twig function</b></td>
+<td><b>Description</b></td>
 </tr>
 <tr>
 <td><code>CraftPlugins\Benchmark\benchmarkStart</code></td>
