@@ -2,7 +2,7 @@
     "name": "craft-plugins/benchmark",
     "description": "Simple benchmark plugin with basic functionality for benchmarking.",
     "type": "craft-plugin",
-    "keywords": ["twig", "craft", "craft-plugin", "craftcms", "benchmark"],
+    "keywords": ["twig", "craft", "craft-plugin", "craftcms", "benchmark", "twig profiler", "profiler"],
     "license": "MIT",
     "authors": [
         {
