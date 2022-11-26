@@ -30,7 +30,7 @@
     "extra": {
       "name": "Benchmark",
       "handle": "benchmark",
-      "class": "CraftPlugins\\Benchmark\\BenchmarkPLugin"
+      "class": "CraftPlugins\\Benchmark\\Benchmark"
     },
     "require-dev": {
       "ext-iconv": "*",

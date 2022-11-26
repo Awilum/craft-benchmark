@@ -9,7 +9,7 @@ Simple benchmark plugin with basic functionality for benchmarking.
 ## Requirements
 
 * **Craft CMS**: ^4.0
-* **PHP**: ^8.1
+* **PHP**: ^8.0
 
 ## Installation
 

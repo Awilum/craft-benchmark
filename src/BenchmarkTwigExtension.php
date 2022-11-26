@@ -18,7 +18,7 @@ use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 use Twig\TwigFilter;
 use Twig_Extension;
-use CraftPlugins\Benchmark\Benchmark;
+use CraftPlugins\Benchmark\Probs;
 
 class BenchmarkTwigExtension extends AbstractExtension
 {
@@ -40,11 +40,11 @@ class BenchmarkTwigExtension extends AbstractExtension
 	public function getFunctions()
 	{
 		return [
-			new TwigFunction('benchmarkStart', fn(string $name = 'default') => Benchmark::start($name)),
-			new TwigFunction('benchmarkEnd', fn(string $name = 'default') => Benchmark::end($name)),
-			new TwigFunction('benchmarkDelete', fn(string $name = 'default') => Benchmark::delete($name)),
-			new TwigFunction('benchmarkFlush', fn() => Benchmark::flush()),
-			new TwigFunction('benchmarkSummary', fn() => Benchmark::summary())
+			new TwigFunction('benchmarkStart', fn(string $name = 'default') => Probs::start($name)),
+			new TwigFunction('benchmarkEnd', fn(string $name = 'default') => Probs::end($name)),
+			new TwigFunction('benchmarkDelete', fn(string $name = 'default') => Probs::delete($name)),
+			new TwigFunction('benchmarkFlush', fn() => Probs::flush()),
+			new TwigFunction('benchmarkSummary', fn() => Probs::summary())
 		];
 	}
 }
