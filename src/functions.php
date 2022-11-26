@@ -13,6 +13,8 @@ declare(strict_types=1);
 
 namespace CraftPlugins\Benchmark;
 
+use CraftPlugins\Benchmark\Probs;
+
 /**
  * Start benchmark prob.
  * 
