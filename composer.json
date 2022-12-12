@@ -1,6 +1,6 @@
 {
     "name": "awilum/craft-benchmark",
-    "description": "Simple benchmark plugin with basic functionality for Craft CMS.",
+    "description": "Simple benchmark plugin with basic benchmark functionality for Craft CMS.",
     "type": "craft-plugin",
     "keywords": ["twig", "craft", "craft-plugin", "craftcms", "benchmark", "twig profiler", "profiler"],
     "license": "MIT",
