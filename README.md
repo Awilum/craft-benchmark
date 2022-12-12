@@ -20,7 +20,7 @@ To install the plugin, follow these instructions.
     cd /path/to/project
     ```
 
-2. In your terminal run `composer require craft-plugins/benchmark`.
+2. In your terminal run `composer require awilum/craft-benchmark`.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Benchmark.
 
