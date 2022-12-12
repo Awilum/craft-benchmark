@@ -51,27 +51,27 @@ Memory usage: {{ benchmarkSummary()['fetch_news']['memory']['usage_formated'] }}
 <td><b>Description</b></td>
 </tr>
 <tr>
-<td><code>CraftPlugins\Benchmark\benchmarkStart</code></td>
+<td><code>Awilum\CraftBenchmark\benchmarkStart</code></td>
 <td>benchmarkStart</td>
 <td>Start benchmark prob.</td>
 </tr>
 <tr>
-<td><code>CraftPlugins\Benchmark\benchmarkEnd</code></td>
+<td><code>Awilum\CraftBenchmark\benchmarkEnd</code></td>
 <td>benchmarkEnd</td>
 <td>End benchmark prob.</td>
 </tr>
 <tr>
-<td><code>CraftPlugins\Benchmark\benchmarkDelete</code></td>
+<td><code>Awilum\CraftBenchmark\benchmarkDelete</code></td>
 <td>benchmarkDelete</td>
 <td>Delete benchmark prob.</td>
 </tr>
 <tr>
-<td><code>CraftPlugins\Benchmark\benchmarkFlush</code></td>
+<td><code>Awilum\CraftBenchmark\benchmarkFlush</code></td>
 <td>benchmarkFlush</td>
 <td>Flush benchmark prob.</td>
 </tr>
 <tr>
-<td><code>CraftPlugins\Benchmark\benchmarkSummary</code></td>
+<td><code>Awilum\CraftBenchmark\benchmarkSummary</code></td>
 <td>benchmarkSummary</td>
 <td>Get benchmark summary.</td>
 </tr>
