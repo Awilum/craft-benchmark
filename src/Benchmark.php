@@ -11,11 +11,11 @@
 
 declare(strict_types=1);
 
-namespace CraftPlugins\Benchmark;
+namespace Awilum\CraftBenchmark;
 
 use Craft;
 use craft\base\Plugin;
-use CraftPlugins\Benchmark\BenchmarkTwigExtension;
+use Awilum\CraftBenchmark\BenchmarkTwigExtension;
 
 class Benchmark extends Plugin
 {

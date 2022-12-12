@@ -1,6 +1,6 @@
 {
-    "name": "craft-plugins/benchmark",
-    "description": "Simple benchmark plugin with basic functionality for benchmarking.",
+    "name": "awilum/craft-benchmark",
+    "description": "Simple benchmark plugin with basic functionality for Craft CMS.",
     "type": "craft-plugin",
     "keywords": ["twig", "craft", "craft-plugin", "craftcms", "benchmark", "twig profiler", "profiler"],
     "license": "MIT",
@@ -8,21 +8,21 @@
         {
             "name": "Sergey Romanenko",
             "email": "awilum@msn.com",
-            "homepage": "https://awilum.github.io"
+            "homepage": "https://awilum.github.io/"
         }
     ],
     "support": {
       "email": "awilum@msn.com",
-      "issues": "https://github.com/craft-plugins/benchmark/issues?state=open",
-      "source": "https://github.com/craft-plugins/benchmark",
-      "docs": "https://github.com/craft-plugins/benchmark/master/README.md"
+      "issues": "https://github.com/awilum/craft-benchmark/issues?state=open",
+      "source": "https://github.com/awilum/craft-benchmark",
+      "docs": "https://github.com/awilum/craft-benchmark/master/README.md"
     },
     "require": {
       "craftcms/cms": "^4.3.3"
     },
     "autoload": {
       "psr-4": {
-        "CraftPlugins\\Benchmark\\": "src/"
+        "Awilum\\CraftBenchmark\\": "src/"
       },
       "files": [
         "src/functions.php"
@@ -33,7 +33,7 @@
     "extra": {
       "name": "Benchmark",
       "handle": "benchmark",
-      "class": "CraftPlugins\\Benchmark\\Benchmark"
+      "class": "Awilum\\CraftBenchmark\\Benchmark"
     },
     "require-dev": {
       "ext-iconv": "*",

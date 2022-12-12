@@ -12,7 +12,7 @@
 
 declare(strict_types=1);
 
-namespace CraftPlugins\Benchmark;
+namespace Awilum\CraftBenchmark;
 
 use LogicException;
 

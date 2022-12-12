@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use function CraftPlugins\Benchmark\benchmarkStart;
-use function CraftPlugins\Benchmark\benchmarkEnd;
-use function CraftPlugins\Benchmark\benchmarkSummary;
-use function CraftPlugins\Benchmark\benchmarkFlush;
-use function CraftPlugins\Benchmark\benchmarkDelete;
+use function Awilum\CraftBenchmark\benchmarkStart;
+use function Awilum\CraftBenchmark\benchmarkEnd;
+use function Awilum\CraftBenchmark\benchmarkSummary;
+use function Awilum\CraftBenchmark\benchmarkFlush;
+use function Awilum\CraftBenchmark\benchmarkDelete;
 
 test('benchmark functions', function (): void {
 

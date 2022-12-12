@@ -11,9 +11,9 @@
 
 declare(strict_types=1);
 
-namespace CraftPlugins\Benchmark;
+namespace Awilum\CraftBenchmark;
 
-use CraftPlugins\Benchmark\Probs;
+use Awilum\CraftBenchmark\Probs;
 
 /**
  * Start benchmark prob.
